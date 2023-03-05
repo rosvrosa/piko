@@ -1,11 +1,11 @@
 ---
-baseURL: https://piko-heksagon.netlify.app/
+baseURL: https://subtle-nougat-5e04bf.netlify.app
 languageCode: en-us
 title: Piko
 theme: piko
 paginate: "9"
 copyright: A template by [Heksagon](https://www.heksagon.net "Your most friendly developer")
-googleAnalytics: # Enter Google Analytics ie. UA-012345678-9
+googleAnalytics: 
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
@@ -27,15 +27,14 @@ minify:
   tdewolff:
     html:
       keepWhitespace: false
-
 params:
   analytics:
     google:
-      SiteVerificationTag: # Google Site Verification
+      SiteVerificationTag: 
     yandex:
-      SiteVerificationTag: # Yandex Site Verification
+      SiteVerificationTag: 
     bing:
-      SiteVerificationTag: # Bing Site Verification
+      SiteVerificationTag: 
   env: production
   author: Your Name
   description: Your website description
@@ -45,7 +44,7 @@ params:
   label:
     title: _Piko Title_
     text: Welcome to Piko
-    icon: /uploads/zap.svg
+    icon: "/uploads/zap.svg"
     iconHeight: "35"
     iconWIdth: "35"
   comments: true
@@ -56,21 +55,20 @@ params:
   ShowRelated: true
   CookieNotice: We use cookies to improve your experience on our site and to show
     you relevant advertising.
-  CookieLink: /legal/privacy/#cookies-and-web-beacons
+  CookieLink: "/legal/privacy/#cookies-and-web-beacons"
   CookieButton: Cookies Policy
   disableAnchoredHeadings: false
-  contactFormAction: # Get link from https://formsubmit.io or https://fabform.io
+  contactFormAction: 
   assets:
     disableFingerprinting: false
-    favicon: /uploads/zap.svg
-    favicon16x16: /uploads/zap.svg
-    favicon32x32: /uploads/zap.svg
-    apple_touch_icon: /uploads/zap.svg
-    safari_pinned_tab: /uploads/zap.svg
+    favicon: "/uploads/zap.svg"
+    favicon16x16: "/uploads/zap.svg"
+    favicon32x32: "/uploads/zap.svg"
+    apple_touch_icon: "/uploads/zap.svg"
+    safari_pinned_tab: "/uploads/zap.svg"
   ShowReadingTime: true
   ShowBreadCrumbs: true
   homepage:
-    # Hero Section
     disableHeroSection: false
     heroUpperTitle: 
     heroTitle: Piko
@@ -80,35 +78,31 @@ params:
     heroCTASecondaryText: Contact Me
     heroCTASecondaryUrl: "/contact/"
     heroBackgroundImage: "/uploads/portfolio-1.webp"
-    # Blog Section
     disableBlogSection: false
     blogTitle: Latest Posts
     blogDescription: This is my latest blog posts
     seeMoreText: More Posts
-    # About Section    
     disableAboutSection: false
     aboutTitle: About
     aboutDescription: Just something about me
     aboutImgUrl: "/uploads/self.webp"
     aboutContent: Hi guys. This is where you put something about yourself.
-    # Portfolio Section
     disablePortfolioSection: false
     portfolioTitle: Portfolio
     portfolioDescription: Some of my works
     portfolio:
-    - imageUrl: /uploads/portfolio-1.webp
-      alt: # image alt for better SEO
+    - imageUrl: "/uploads/portfolio-1.webp"
+      alt: 
       description: Portfolio One.
-      websiteUrl: #
-    - imageUrl: /uploads/portfolio-2.webp
-      alt: # image alt for better SEO
+      websiteUrl: 
+    - imageUrl: "/uploads/portfolio-2.webp"
+      alt: 
       description: Portfolio Two.
-      websiteUrl: #
-    - imageUrl: /uploads/portfolio-3.webp
-      alt: # image alt for better SEO
+      websiteUrl: 
+    - imageUrl: "/uploads/portfolio-3.webp"
+      alt: 
       description: Portfolio Three.
-      websiteUrl: #
-  # Search Options (https://fusejs.io/)
+      websiteUrl: 
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
@@ -127,7 +121,7 @@ params:
     js:
     - link: plugins/js/feather.min.js
 menus:
-  main: # Main Menu
+  main:
   - name: Blog
     title: Blog
     pre: pen-tool
@@ -148,7 +142,7 @@ menus:
     pre: github
     url: https://github.com/heksagonnet/piko
     weight: "50"
-  search: # Search page's quick links
+  search:
   - name: Categories
     title: Categories
     url: "/categories"
